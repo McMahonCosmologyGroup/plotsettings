@@ -254,15 +254,16 @@
 ## relative to font.size, using the following values: xx-small, x-small,
 ## small, medium, large, x-large, xx-large, larger, or smaller
 
-#font.family:  sans-serif
+
+font.family:  sans-serif
 #font.style:   normal
 #font.variant: normal
-#font.weight:  normal
+font.weight:  light
 #font.stretch: normal
-#font.size:    10.0
+font.size:    16.0
 
 #font.serif:      DejaVu Serif, Bitstream Vera Serif, Computer Modern Roman, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times New Roman, Times, Palatino, Charter, serif
-#font.sans-serif: DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+font.sans-serif: DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
 #font.cursive:    Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
 #font.fantasy:    Chicago, Charcoal, Impact, Western, Humor Sans, xkcd, fantasy
 #font.monospace:  DejaVu Sans Mono, Bitstream Vera Sans Mono, Computer Modern Typewriter, Andale Mono, Nimbus Mono L, Courier New, Courier, Fixed, Terminal, monospace
@@ -358,7 +359,7 @@
 #axes.facecolor:     white   # axes background color
 #axes.edgecolor:     black   # axes edge color
 #axes.linewidth:     0.8     # edge line width
-#axes.grid:          False   # display grid or not
+axes.grid:          True   # display grid or not
 #axes.grid.axis:     both    # which axis the grid should apply to
 #axes.grid.which:    major   # grid lines at {major, minor, both} ticks
 #axes.titlelocation: center  # alignment of the title: {left, right, center}
@@ -473,7 +474,7 @@
 #xtick.color:         black   # color of the ticks
 #xtick.labelcolor:    inherit # color of the tick labels or inherit from xtick.color
 #xtick.labelsize:     medium  # font size of the tick labels
-#xtick.direction:     out     # direction: {in, out, inout}
+xtick.direction:     in     # direction: {in, out, inout}
 #xtick.minor.visible: False   # visibility of minor ticks on x-axis
 #xtick.major.top:     True    # draw x axis top major ticks
 #xtick.major.bottom:  True    # draw x axis bottom major ticks
@@ -494,7 +495,7 @@
 #ytick.color:         black   # color of the ticks
 #ytick.labelcolor:    inherit # color of the tick labels or inherit from ytick.color
 #ytick.labelsize:     medium  # font size of the tick labels
-#ytick.direction:     out     # direction: {in, out, inout}
+ytick.direction:     in     # direction: {in, out, inout}
 #ytick.minor.visible: False   # visibility of minor ticks on y-axis
 #ytick.major.left:    True    # draw y axis left major ticks
 #ytick.major.right:   True    # draw y axis right major ticks
@@ -506,10 +507,10 @@
 ## ***************************************************************************
 ## * GRIDS                                                                   *
 ## ***************************************************************************
-#grid.color:     b0b0b0  # grid color
+#grid.color:     'grey'  # grid color
 #grid.linestyle: -       # solid
 #grid.linewidth: 0.8     # in points
-#grid.alpha:     1.0     # transparency, between 0.0 and 1.0
+#grid.alpha:     .2     # transparency, between 0.0 and 1.0
 
 
 ## ***************************************************************************
