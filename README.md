@@ -8,6 +8,15 @@ Plot settings for uniform figures in group publications.
 2. `cd plotsettings/`
 3. `python3 setup.py install --user`
 
+## Usage
+In jupyter notebook or python script:
+
+```
+import matplotlib.pyplot as plt
+plt.style.use('path/to/repo/plotsettings/matplotlibrc_lab')
+
+```
+
 ## Dependencies
 - matplotlib
 - setuptools
