@@ -403,7 +403,7 @@ axes.grid:          True   # display grid or not
 #axes.spines.top:    True
 #axes.spines.right:  True
 
-#axes.unicode_minus: True  # use Unicode for the minus symbol rather than hyphen.  See
+axes.unicode_minus: False  # use Unicode for the minus symbol rather than hyphen.  See
                            # https://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
 #axes.prop_cycle: cycler('color', ['1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
                   # color cycle for plot lines as list of string color specs:
@@ -519,15 +519,15 @@ ytick.direction:     in     # direction: {in, out, inout}
 #legend.loc:           best
 #legend.frameon:       True     # if True, draw the legend on a background patch
 #legend.framealpha:    0.8      # legend patch transparency
-#legend.facecolor:     inherit  # inherit from axes.facecolor; or color spec
+legend.facecolor:     whitesmoke  # inherit from axes.facecolor; or color spec
 #legend.edgecolor:     0.8      # background patch boundary color
-#legend.fancybox:      True     # if True, use a rounded box for the
+legend.fancybox:      True     # if True, use a rounded box for the
                                 # legend background, else a rectangle
-#legend.shadow:        False    # if True, give background a shadow effect
+legend.shadow:        True    # if True, give background a shadow effect
 #legend.numpoints:     1        # the number of marker points in the legend line
 #legend.scatterpoints: 1        # number of scatter points
-#legend.markerscale:   1.0      # the relative size of legend markers vs. original
-#legend.fontsize:      medium
+legend.markerscale:   2      # the relative size of legend markers vs. original
+legend.fontsize:      14
 #legend.labelcolor:    None
 #legend.title_fontsize: None    # None sets to the same as the default axes.
 
@@ -671,7 +671,7 @@ ytick.direction:     in     # direction: {in, out, inout}
 #savefig.facecolor: auto        # figure face color when saving
 #savefig.edgecolor: auto        # figure edge color when saving
 #savefig.format:    png         # {png, ps, pdf, svg}
-#savefig.bbox:      standard    # {tight, standard}
+#savefig.bbox:      tight    # {tight, standard}
                                 # 'tight' is incompatible with pipe-based animation
                                 # backends (e.g. 'ffmpeg') but will work with those
                                 # based on temporary files (e.g. 'ffmpeg_file')

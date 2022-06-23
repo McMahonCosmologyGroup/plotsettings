@@ -26,3 +26,6 @@ In your Jupyter notebook, consider adding:
 - matplotlib
 - setuptools
 - Python>=3.7
+
+## Contributing
+To alter the plotting settings, change the setting in the `matplotlibrc_lab` and uncomment the line.
