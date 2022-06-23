@@ -1,4 +1,4 @@
-# plotsettings
+# plotsettings :art:
 
 Plot settings for uniform figures in group publications.
 
@@ -14,7 +14,6 @@ In jupyter notebook or python script:
 ```
 import matplotlib.pyplot as plt
 plt.style.use('path/to/repo/plotsettings/matplotlibrc_lab')
-
 ```
 
 ## Dependencies
