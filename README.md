@@ -1,4 +1,4 @@
-# plotsettings :art:
+# plotsettings :art: :chart_with_upwards_trend:
 
 Plot settings for uniform figures in group publications.
 
