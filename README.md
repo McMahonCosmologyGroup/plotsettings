@@ -22,6 +22,34 @@ In your Jupyter notebook, consider adding:
 %config InlineBackend.figure_format = 'retina'
 ```
 
+## Example Figures with Configured settings
+
+Code:
+```python3
+import matplotlib.pyplot as plt
+plt.style.use('path/to/repo/plotsettings/matplotlibrc_lab')
+
+import numpy as np
+y1 = np.random.random(100)
+y2 = np.random.random(100)
+x = np.random.random(100)
+
+plt.figure()
+plt.title("Example Plot")
+plt.xlabel("X values")
+plt.ylabel("Y values")
+plt.plot(x,y1,'.',label = 'Data 1')
+plt.plot(x,y2,'.',label = "Data 2")
+plt.legend()
+plt.savefig("simple.pdf")
+plt.show()
+```
+
+Output:
+<p align="center">
+     <img src="figs/simple.pdf" width="50%" />
+</p>
+
 ## Dependencies
 - matplotlib
 - setuptools
