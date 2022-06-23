@@ -11,7 +11,7 @@ Plot settings for uniform figures in group publications.
 ## Usage
 In jupyter notebook or python script:
 
-```
+```python3
 import matplotlib.pyplot as plt
 plt.style.use('path/to/repo/plotsettings/matplotlibrc_lab')
 ```
