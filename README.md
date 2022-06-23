@@ -41,13 +41,13 @@ plt.ylabel("Y values")
 plt.plot(x,y1,'.',label = 'Data 1')
 plt.plot(x,y2,'.',label = "Data 2")
 plt.legend()
-plt.savefig("simple.pdf")
+plt.savefig("simple.png")
 plt.show()
 ```
 
 Output:
 <p align="center">
-     <img src="figs/simple.pdf" width="50%" />
+     <img src="figs/simple.png" width="50%" />
 </p>
 
 ## Dependencies
