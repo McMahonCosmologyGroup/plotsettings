@@ -12,8 +12,17 @@ Plot settings for uniform figures in group publications.
 In jupyter notebook or python script:
 
 ```python3
+import matplotlib
 import matplotlib.pyplot as plt
-plt.style.use('path/to/repo/plotsettings/matplotlibrc_lab')
+import matplotlib.font_manager as font_manager
+
+plt.style.use('path/to/repo/plotsettings/plotsettings/matplotlibrc_lab')
+
+font_manager.fontManager.addfont(
+    "path/to/repo/plotsettings/fonts/Helvetica-Neue-Light.ttf"
+)
+matplotlib.rcParams["font.family"] = "Helvetica Neue"
+%config InlineBackend.figure_format = 'retina'
 ```
 
 In your Jupyter notebook, consider adding:
