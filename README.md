@@ -18,7 +18,6 @@ plt.style.use('path/to/repo/plotsettings/matplotlibrc_lab')
 
 In your Jupyter notebook, consider adding:
 ```python3
-%matplotlib inline
 %config InlineBackend.figure_format = 'retina'
 ```
 

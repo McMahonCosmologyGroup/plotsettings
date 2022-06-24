@@ -615,7 +615,7 @@ image.aspect:          equal        # {equal, auto} or a number
 ## * HISTOGRAM PLOTS                                                         *
 ## ***************************************************************************
 hist.bins: auto  # The default number of histogram bins or 'auto'.
-hist.alpha: 0.5  # The default number of histogram bins or 'auto'.
+#hist.alpha: 0.5  # The default number of histogram bins or 'auto'.
 
 ## ***************************************************************************
 ## * SCATTER PLOTS                                                           *
