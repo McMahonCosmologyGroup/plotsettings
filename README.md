@@ -25,11 +25,6 @@ matplotlib.rcParams["font.family"] = "Helvetica Neue"
 %config InlineBackend.figure_format = 'retina'
 ```
 
-In your Jupyter notebook, consider adding:
-```python3
-%config InlineBackend.figure_format = 'retina'
-```
-
 ## Example Figures with Configured settings
 
 Code:
