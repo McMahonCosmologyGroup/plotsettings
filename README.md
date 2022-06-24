@@ -9,7 +9,7 @@ Plot settings for uniform figures in group publications.
 3. `python3 setup.py install --user`
 
 ## Usage
-In jupyter notebook or python script:
+In jupyter notebook or python script (this should be the first cell of your notebook):
 
 ```python3
 import matplotlib
@@ -25,12 +25,21 @@ matplotlib.rcParams["font.family"] = "Helvetica Neue"
 %config InlineBackend.figure_format = 'retina'
 ```
 
-## Example Figures with Configured settings
+## Example Figures
 
 Code:
 ```python3
+import matplotlib
 import matplotlib.pyplot as plt
-plt.style.use('path/to/repo/plotsettings/matplotlibrc_lab')
+import matplotlib.font_manager as font_manager
+
+plt.style.use('path/to/repo/plotsettings/plotsettings/matplotlibrc_lab')
+
+font_manager.fontManager.addfont(
+    "path/to/repo/plotsettings/fonts/Helvetica-Neue-Light.ttf"
+)
+matplotlib.rcParams["font.family"] = "Helvetica Neue"
+%config InlineBackend.figure_format = 'retina'
 
 import numpy as np
 y1 = np.random.random(100)
